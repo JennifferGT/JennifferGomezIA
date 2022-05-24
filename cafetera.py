@@ -5,4 +5,7 @@ def cafe():
     print("2. Oficina")
     print("3. Restaurante")
     #Inicializamos en 0 el número de movimentos que realiza la cafetera.
+    aumento = 0;
+    #Ingresar por medio de número el lugar de la cafetera que desea encender.
+    opcionMe = input("Insertar el lugar de la cafetera: ")
 cafe()

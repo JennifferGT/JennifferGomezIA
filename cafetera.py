@@ -27,4 +27,26 @@ def cafe():
             #Verifica que la temperatura sea mayor que 90, para que la cafetera se apague 
             if temperatura >= 90:
                 opcionEstado = '0'
+                #Muestra un mensaje diciendo que el café está listo
+                print("El café está listo ")
+            #Si la temperatura es menor que 90 se mantiene encendido 
+            elif temperatura < 90:
+                opcionEstado = '1'
+                 #Muestra un mensaje diciendo que el café está listo
+                print("El café aún no está listo ")
+            else:
+                print("Ingrese la temperatura del agua:")
+         # Si la cafetera está encendida aumenta un movimiento de la maquita  verificando su temperatura  
+        elif opcionEstado == '1':
+            aumento += 1
+            if temperatura >= 90:
+                opcionEstado = '0'
+                print("El café está listo ")
+            elif temperatura < 90:
+                opcionEstado = '1'
+                print("El café aún no está listo ")
+            else:
+                print("Ingrese la temperatura del agua:")
+        else:
+         print("Ingrese el estado")
 cafe()

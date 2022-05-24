@@ -49,4 +49,10 @@ def cafe():
                 print("Ingrese la temperatura del agua:")
         else:
          print("Ingrese el estado")
+    # Si la cafetera está en la oficina se debe ingresar el número 2.
+    elif opcionMe == '2':
+        #Imprime el menú de estado del café si está apagado se ingresa 0 y si está encendido se ingresa 1
+        print("Seleccione el estado de la cafetera: ")
+        print("0. Apagado")
+        print("1. Encendido")
 cafe()

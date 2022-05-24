@@ -15,4 +15,8 @@ def cafe():
         print("Seleccione el estado de la cafetera: ")
         print("0. Apagado")
         print("1. Encendido")
+        #Ingresar el estado de la cafetera por medio de los números indicados
+        opcionEstado = input("Inserte el estado de la cafetera: ")
+        #Ingresar el número de la temperatura del agua de la cafetera.
+        temperatura = int(input("Ingrese la temperatura de la cafetera: "))
 cafe()

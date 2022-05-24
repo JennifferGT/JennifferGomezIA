@@ -19,4 +19,9 @@ def cafe():
         opcionEstado = input("Inserte el estado de la cafetera: ")
         #Ingresar el número de la temperatura del agua de la cafetera.
         temperatura = int(input("Ingrese la temperatura de la cafetera: "))
+        #Crea una función que verifica el estado de la cafetera.
+        # Si la cafetera está apagado automaticamente se enciende y aumenta un movimiento de la maquita
+        if opcionEstado == '0':
+            opcionEstado = '1'
+            aumento += 1
 cafe()

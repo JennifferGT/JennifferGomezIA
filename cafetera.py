@@ -24,4 +24,7 @@ def cafe():
         if opcionEstado == '0':
             opcionEstado = '1'
             aumento += 1
+            #Verifica que la temperatura sea mayor que 90, para que la cafetera se apague 
+            if temperatura >= 90:
+                opcionEstado = '0'
 cafe()

@@ -29,6 +29,7 @@ def cafe():
                 opcionEstado = '0'
                 #Muestra un mensaje diciendo que el café está listo
                 print("El café está listo ")
+                print("El número de movimientos es:" + str(aumento))
             #Si la temperatura es menor que 90 se mantiene encendido 
             elif temperatura < 90:
                 opcionEstado = '1'

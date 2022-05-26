@@ -7,8 +7,6 @@ def cafe():
         print("1. Cocina")
         print("2. Oficina")
         print("3. Restaurante")
-        
-        
         #Ingresar por medio de número el lugar de la cafetera que desea encender.
         opcionMe = input("Insertar el lugar de la cafetera: ")
         #Crea una función que verifica el lugar de la cafetera
